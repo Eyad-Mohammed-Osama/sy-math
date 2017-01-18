@@ -4,11 +4,13 @@
 <h2>Introduction</h2>
 <p><b>sy-math.js</b> Is A Simple,Easy-To-Use,Lightweight JavaScript Library That Extends The Native JavaScript <code>Math</code> Object With Some Powerful Methods.</p><p>The Main Purpose Of <b>sy-math.js</b> Is To Simplify Some Mathematician Tasks In JavaScript,For Example,Instead Of Write Several Lines To Figure Out If A Number Is Primitive Or Not,<b>sy-math.js</b> Provides You With A Built-in Method Called <code>isPrimitive()</code> To Do This.</p><h2>Installation</h2><p>Just Like Any Another JavaScript Library,To Include <b>sy-math.js</b> Just Use A
 ``` HTML
-<script>
-``` Tag And Let It 
+&lt;script&gt;
+```
+Tag And Let It 
 ```HTML
 src
-``` Attribute Point To The Library,For Example:</p>
+``` 
+Attribute Point To The Library,For Example:</p>
 ```HTML
-<script src="includes/sy-math.js"><script>
+&lt;script src="includes/sy-math.js"&gt;&lt;script&gt;
 ```
