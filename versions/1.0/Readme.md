@@ -8,4 +8,7 @@
 </ul>
 <hr><h1 id="arabic" dir="rtl">مكتبة 
 <span dir="ltr">sy-math.js</span>
-الإصدار 1.0-تم إطلاقه يوم الأربعاء 18-1-2017</h1>
+الإصدار 1.0-تم إطلاقه يوم الأربعاء 18-1-2017</h1><h2 dir="rtl">ما الجديد في هذا الإصدار؟</h2>
+<ul dir="rtl"><li>تم إضافة الدوال <code dir="ltr">isEven()</code> و <code dir="ltr">isOdd()</code> و <code dir="ltr">EvenOrOdd()</code> لإختبار إذا ما كان العدد الممرر فردي أو زوجي.</li><li>تم إضافة الدالة <code dir="ltr">isDividable()</code> للتحقق من قابلية قسمة عدد ما على عدد آخر.</li><li>تم إضافة الدالة <code dir="ltr">factorial()</code> لحساب قيمة العاملي لعدد ما مثل <span dir="ltr">6!</span>.</li><li>تم إضافة الدالة <code dir="ltr">root()</code> لحساب الجذر من المرتبة n لعدد ما.</li><li>تم إضافة الدالة <code dir="ltr">sum()</code> لحساب مجموع عدد منتهي من الأعداد.</li><li>تم إضافة الدالة <code dir="ltr">multiply()</code> لإيجاد ناتج ضرب عدد منتهي من الأعداد ببعضها.</li><li>تم إضافة الدالة <code dir="ltr">getAverage()</code> لإيجاد المتوسط الحسابي لعدد منتهي من الأعداد.</li><li>تم إضافة الدالة <code dir="ltr">isPrimitive()</code> للتحقق مما إذا كان العدد الممرر أوليا أم لا.</li><li>تم إضافة الدالة <code dir="ltr">getFloatDigits()</code> لإستخراج الأرقام الموجودة بعد الفاصلة في العدد الممرر.
+</li><li>تم إضافة الدوال <code dir="ltr">factors()</code> و <code dir="ltr">factorsNegative()</code> لتحليل العدد الممرر.</li><li>تم إضافة الدالة <code dir="ltr">solveQuadraticEquation()</code> لحل المعادلات التربيعية.</li>
+</ul>
