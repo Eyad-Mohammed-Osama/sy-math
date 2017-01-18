@@ -4,5 +4,6 @@
 <li><code>root()</code> Method Was Added To Calculate The nth Root Of A Specific Number.</li>
 <li><code>sum()</code> Method Was Added To Calculate The Sum Of A Finite Number Of Numbers.</li>
 <li><code>multiply()</code> Method Was Added To Calculate The Multiplication Of A Finite Number Of Numbers.</li>
-<li><code>getAverage()</code> Method Was Added To Calculate The Average Of Finite Number Of Numbers.</li>
-<li></li></ul>
+<li><code>getAverage()</code> Method Was Added To Calculate The Average Of Finite Number Of Numbers.</li><li><code>isPrimitive()</code> Method Was Added To Check Whether The Passed Number Is Primitive Or Not.</li><li><code>getFloatDigits()</code> Method Was Added To Get The Digits Of A Float Type Number.</li><li><code>factors()</code> And <code>factorsNegative()</code> Methods Were Added To Factorise The Passed Number.</li><li><code>solveQuadraticEquation()</code>Method Was Added To Solve A Quadratic Equation.</li>
+</ul>
+<hr>
