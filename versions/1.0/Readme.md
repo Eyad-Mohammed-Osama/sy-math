@@ -6,4 +6,6 @@
 <li><code>multiply()</code> Method Was Added To Calculate The Multiplication Of A Finite Number Of Numbers.</li>
 <li><code>getAverage()</code> Method Was Added To Calculate The Average Of Finite Number Of Numbers.</li><li><code>isPrimitive()</code> Method Was Added To Check Whether The Passed Number Is Primitive Or Not.</li><li><code>getFloatDigits()</code> Method Was Added To Get The Digits Of A Float Type Number.</li><li><code>factors()</code> And <code>factorsNegative()</code> Methods Were Added To Factorise The Passed Number.</li><li><code>solveQuadraticEquation()</code>Method Was Added To Solve A Quadratic Equation.</li>
 </ul>
-<hr>
+<hr><h1 id="arabic" dir="rtl">مكتبة 
+<span dir="ltr">sy-math.js</span>
+الإصدار 1.0-تم إطلاقه يوم الأربعاء 18-1-2017</h1>
