@@ -10,9 +10,9 @@ Attribute Point To The Library,For Example:</p>
 ```
 
 <h2>Usage</h2><p>Take The <code>Math</code> Object Then Use One Of The Supported Methods In This Library With It,For Example,If You Want To Use The <code>sum()</code> Method,You Can Do The Following:</p>
-```js
-Math.sum(1,9,7); //Output 17
-```
+
+
+
 <h2>Supported Methods:</h2>
 <h3><code>isEven()</code>,<code>isOdd()</code>,<code>EvenOrOdd()</code>:</h3>
 <p>These Methods Can Be Used To Check Whether The Passed Number Is Even,Or Odd,For Example:</p>
