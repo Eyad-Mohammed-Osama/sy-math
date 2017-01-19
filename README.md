@@ -7,4 +7,9 @@ Tag And Let  The <code>src</code>
 Attribute Point To The Library,For Example:
 ```html
 <script src="includes/sy-math.js"></script>
-```<h2>Usage</h2>
+```
+
+<h2>Usage</h2><p>Take The <code>Math</code> Object Then Use One Of The Supported Methods In This Library With It,For Example,If You Want To Use The <code>sum()</code> Method,You Can Do The Following:</p>
+```js
+Math.sum(1,9,7); //Output 17
+```
