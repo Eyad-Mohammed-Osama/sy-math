@@ -6,5 +6,5 @@
 Tag And Let  The <code>src</code>
 Attribute Point To The Library,For Example:
 ```html
-<script src="includes/sy-math.js"><script>
+<script src="includes/sy-math.js"></script>
 ```
