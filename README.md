@@ -17,7 +17,8 @@ Math.sum(1,9,7); //Output 17
 <h3><code>isEven()</code>,<code>isOdd()</code>,<code>EvenOrOdd()</code>:</h3>
 <p>These Methods Can Be Used To Check Whether The Passed Number Is Even,Or Odd,For Example:</p>
 ```js
-Math.isEven(8); //Output true
-Math.isOdd(12); //Output false
-Math.EvenOrOdd(9); //Output "Odd"
+Math.isEven(8); //Output false
+Math.isOdd(12); //Output true
+Math.EvenOrOdd(9); //Output "Even"
+Math.EvenOrOdd(16); //Output "Odd"
 ```
