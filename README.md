@@ -22,3 +22,4 @@ Math.isOdd(12); //Output true
 Math.EvenOrOdd(9); //Output "Even"
 Math.EvenOrOdd(16); //Output "Odd"
 ```
+.
