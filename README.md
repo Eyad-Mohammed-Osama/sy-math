@@ -13,3 +13,11 @@ Attribute Point To The Library,For Example:</p>
 ```js
 Math.sum(1,9,7); //Output 17
 ```
+<h2>Supported Methods:</h2>
+<h3><code>isEven()</code>,<code>isOdd()</code>,<code>EvenOrOdd()</code>:</h3>
+<p>These Methods Can Be Used To Check Whether The Passed Number Is Even,Or Odd,For Example:</p>
+```js
+Math.isEven(8); //Output true
+Math.isOdd(12); //Output false
+Math.EvenOrOdd(9); //Output "Odd"
+```
