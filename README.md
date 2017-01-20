@@ -31,7 +31,11 @@ Math.EvenOrOdd(16); //Output "Odd"
 <p><code>EvenOrOdd()</code> Returns <span style="color:blue">"Even"</span> If The Passed Number Is Even,And <span style="color:blue">"Odd"</span> Otherwise.</p>
 
 <h3><code>isDividable()</code>:</h3>
-<p>This Method Can Be Used To Check Whether The Passed Number In The First Argument Is Dividable On The Passed Number In The Second Number,For Example:</p>
+<p>This Method Can Be Used To Check Whether The Passed Number In The First Argument Is Dividable On The Passed Number In The Second Number.</p><h4>Syntax:</h4>
+```js
+Math.isDividable(The_Number_To_Divide,The_Number_To_Divide_On);
+```
+<h4>Example:</h4>
 ```js
 Math.isDividable(9,4); //Output false
 Math.isDividable(10,2); //Output true
@@ -39,7 +43,11 @@ Math.isDividable(10,2); //Output true
 <p><code>isDividable()</code> Returns <span style="color:blue">true</span> If The Passed Number In The First Argument Is Dividable On The Passed Number In The Second Number,And <span style="color:blue">false</span> Otherwise.</p>
 
 <h3><code>factorial()</code>:</h3>
-<p>This Method Can Be Used To Get The Factorial Value For The Passed Number,For Example:</p>
+<p>This Method Can Be Used To Get The Factorial Value For The Passed Number.</p><h4>Syntax:</h4>
+```js
+Math.factorial(number);
+```
+<h4>Example:</h4>
 ```js
 Math.factorial(7); //Output 5040 Because 7!=7x6x5x4x3x2x1
 ```
