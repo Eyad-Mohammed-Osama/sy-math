@@ -154,3 +154,77 @@ Math.isPrimitive(11); //Output true
 Math.isPrimitive(24); //Output false
 ```
 <p><code>isPrimitive()</code> Returns <span style="color:blue">true</span> If The Passed Number Is Primitive,And <span style="color:blue">false</span> Otherwise.</p>
+
+
+
+ <h3><code>getFloatDigits()</code>:</h3>
+
+<p>This Method Can Be Used To Get The Digits Of A Float Type Number.</p>
+
+<h4>Syntax:</h4>
+```js
+Math.getFloatDigits(number);
+```
+<h4>Example:</h4>
+```js
+Math.getFloatDigits(12.956); //Output 0.956
+```
+<p><code>getFloatDigits()</code> Returns A Float Type Number That Indicates The Digits Of The Passed Float Type Number.</p>
+
+
+ <h3><code>factors()</code>:</h3>
+
+<p>This Method Can Be Used To Get The Factors Of A Positive Integer.</p>
+
+<h4>Syntax:</h4>
+```js
+Math.factors(number)[factor_index];
+//Or
+Math.factors(number);
+```
+<h4>Example:</h4>
+```js
+Math.factors(24); //Output 1,2,3,4,6,8,12,24
+Math.factors(24)[0]; //Output 1
+Math.factors(24)[4]; //Output 8
+```
+<p><code>factors()</code> Returns An Array Contains The Factors Of The Passed Number,So You Might Have To Define An Index After The Parentheses,Otherwise The Whole Array Will Be Returned.</p>
+
+
+ <h3><code>factorsNegative()</code>:</h3>
+
+<p>Much Like <code>factors()</code> Method,But This Method Can Be Used To Get The Factors (Even Negative Factors) Of A Positive Integer.</p>
+
+<h4>Syntax:</h4>
+```js
+Math.factorsNegative(number)[factor_index];
+//Or
+Math.factorsNegative(number);
+```
+<h4>Example:</h4>
+```js
+Math.factors(24); //Output 1,2,3,4,6,8,12,24,-1,-2,-3,-4,-6,-8,-12,-24
+Math.factors(24)[0]; //Output 1
+Math.factors(24)[10]; //Output -3
+```
+<p><code>factorsNegative()</code> Returns An Array Contains The Factors Of The Passed Number,So You Might Have To Define An Index After The Parentheses,Otherwise The Whole Array Will Be Returned.</p>
+
+
+ <h3><code>solveQuadraticEquation()</code>:</h3>
+
+<p>This Method Can Be Used To Get The Solutions Of A Quadratic Equations.<br>
+Currently,This Method Works Only With Equations That Have a,b,c Integers Such That c/a Should Have No Reminder And a Isn't Equal To Zero.</p>
+
+<h4>Syntax:</h4>
+<p>Let's Say That We Have The Following Quadratic Equation: ax<sup>2</sup>+bx+c=0,Then:</p>
+```js
+Math.solveQuadraticEquation(a,b,c)[factor_index];
+//Or
+Math.solveQuadraticEquation(a,b,c);
+```
+<h4>Example:</h4>
+```js
+Math.solveQuadraticEquation(1,6,8); //Output -2,-4
+Math.solveQuadraticEquation(1,6,8)[0]; //Output -2
+```
+<p><code>solveQuadraticEquation()</code> Returns An Array Contains The Solutions Of The Quadratic Equation,So You Might Have To Define An Index After The Parentheses,Otherwise The Whole Array Will Be Returned.</p>
