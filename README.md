@@ -217,12 +217,14 @@ Currently,This Method Works Only With Equations That Have a,b,c Integers Such Th
 
 <h4>Syntax:</h4>
 <p>Let's Say That We Have The Following Quadratic Equation: ax<sup>2</sup>+bx+c=0,Then:</p>
+
 ```js
 Math.solveQuadraticEquation(a,b,c)[factor_index];
 //Or
 Math.solveQuadraticEquation(a,b,c);
 ```
 <h4>Example:</h4>
+
 ```js
 Math.solveQuadraticEquation(1,6,8); //Output -2,-4
 Math.solveQuadraticEquation(1,6,8)[0]; //Output -2
