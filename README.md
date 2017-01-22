@@ -228,3 +228,48 @@ Math.solveQuadraticEquation(1,6,8); //Output -2,-4
 Math.solveQuadraticEquation(1,6,8)[0]; //Output -2
 ```
 <p><code>solveQuadraticEquation()</code> Returns An Array Contains The Solutions Of The Quadratic Equation,So You Might Have To Define An Index After The Parentheses,Otherwise The Whole Array Will Be Returned.</p>
+
+<hr>
+<h1 id="arabic" dir="rtl">sy-math.js  -  مكتبة جافاسكريبت تقوم بتوسيع الكائن Math و تضيف له بعض الدوال الفعالة.
+</h1>
+
+<h2 dir="rtl">مقدمة</h2>
+
+<p dir="rtl"><b>sy-math.js</b> هي مكتبة جافاسكريبت بسيطة و سهلة الإستخدام و صغيرة الحجم تقوم بتوسيع الكائن
+ <code dir="ltr">Math</code> ببعض الدوال الفعالة.
+</p>
+
+<p dir="rtl">
+الهدف الرئيسي من وراء مكتبة
+ <b dir="ltr">sy-math.js</b> هو تبسيط بعض الأعمال الرياضية في لغة جافاسكريبت،على سبيل المثال،بدل أن تكتب عدة سطور برمجية لتكتشف إذا ما كان عدد ما أوليا أم لا،توفر لك مكتبة 
+ <b dir="ltr">sy-math.js</b> دالة جاهزة للقيام بهذه المهمة و هي 
+<code dir="ltr">isPrimitive()</code>.
+</p>
+
+<h2 dir="rtl">التثبيت</h2>
+
+<p dir="rtl">
+مثل أي مكتبة جافاسكريبت أخرى،لتضمين مكتبة 
+ <b dir="ltr">sy-math.js</b> 
+فقط قم بإستخدام وسم
+<code>&lt;script&gt;</code>
+و قم بتوجيه الخاصية 
+<code>src</code>
+إلى عنوان المكتبة،على سبيل المثال:
+</p>
+```html
+<script src="includes/sy-math.js"></script>
+```
+<h2 dir="rtl">الإستخدام</h2>
+
+<p dir="rtl">
+عليك إستخدام أحد الدوال المدعومة في المكتبة مع الكائن 
+ <b dir="ltr">Math</b>
+،على سبيل المثال،إذا أردت إستخدام الدالة 
+ <code dir="ltr">sum()</code> 
+فعليك القيام بما يلي:
+</p>
+
+```js
+Math.sum(1,9,7); //الناتج هو  17
+```
