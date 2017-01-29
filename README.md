@@ -275,3 +275,56 @@ Math.solveQuadraticEquation(1,6,8)[0]; //Output -2
 ```js
 Math.sum(1,9,7); //الناتج هو  17
 ```
+
+ <h2>الدوال المدعومة:</h2>
+
+<h3><code>isEven()</code>,<code>isOdd()</code>,<code>EvenOrOdd()</code>:</h3>
+
+<p>
+تستخدم هذه الدوال في التحقق مما إذا كان العدد المرر فرديا أو زوجيا.
+</p>
+<h4>الصيغة النحوية:</h4>
+```js
+Math.isEven(عدد);
+Math.isOdd(عدد);
+Math.EvenOrOdd(عدد);
+```
+<h4>مثال:</h4>
+```js
+Math.isEven(8); //النتيجة هي false
+Math.isOdd(12); //النتيجة هي true
+Math.EvenOrOdd(9); //النتيجة هي "Even"
+Math.EvenOrOdd(16); //النتيجة هي "Odd"
+```
+
+<p><code>isEven()</code> تعيد القيمة <span style="color:blue">true</span> 
+إذا كان العدد الممرر فرديا،و تعيد القيمة
+ <span style="color:blue">false</span> فيما عدا ذلك.
+</p>
+
+<p><code>isOdd()</code> تعيد القيمة <span style="color:blue">true</span> إذا كان العدد الممرر زوجيا،و تعيد القيمة 
+ <span style="color:blue">false</span> فيما عدا ذلك.
+</p>
+
+<p><code>EvenOrOdd()</code> تعيد النص <span style="color:blue">"Even"</span>إذا كان العدد الممرر زوجيا,و تعيد القيمة
+<span style="color:blue">"Odd"</span> فيما عدا ذلك.
+</p>
+
+ <h3><code>isDividable()</code>:</h3>
+
+<p>
+يمكن إستخدام هذه الدالة للتحقق مما إذا كان العدد الممرر في المعامل الأول يقبل القسمة على العدد الممرر في المعامل الثاني.
+</p>
+<h4>الصيغة النحوية:</h4>
+
+```js
+Math.isDividable(العدد المراد قسمته,العدد المراد القسمة عليه);
+```
+<h4>مثال:</h4>
+```js
+Math.isDividable(9,4); //النتيجة هي false
+Math.isDividable(10,2); //النتيجة هي true
+```
+<p><code>isDividable()</code> تعيد القيمة <span style="color:blue">true</span> إذا كان العدد الممرر في المعامل الأول يقبل القسمة على العدد الممرر في المعامل الثاني،و يعيد القيمة  
+<span style="color:blue">false</span> فيما عدا ذلك.
+</p>
