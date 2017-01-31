@@ -433,7 +433,7 @@ Math.factors(24)[4]; //النتيجة هي 8
 
 <h4 dir="rtl">الصيغة النحوية:</h4>
 ```js
-Math.factorsNegative(عدد)[موضع العامل];
+Math.factorsNegative(number)[موضع العامل];
 //أو
 Math.factorsNegative(عدد);
 ```
