@@ -172,5 +172,4 @@ Factors.push((-1)*j);
 }
  return Factors;
 }
-
 };
