@@ -319,7 +319,7 @@ Math.factorial(عدد);
 ```js
 Math.factorial(7); //النتيجة هي 5040
 ```
-<p dir="rtl"><code dir="ltr">>factorial()</code> تعيد عدد يعبر عن قيمة عاملي العدد المدخل.</p>
+<p dir="rtl"><code dir="ltr">factorial()</code> تعيد عدد يعبر عن قيمة عاملي العدد المدخل.</p>
 
 <h3><code>root()</code>:</h3>
 
@@ -334,7 +334,7 @@ Math.root(مرتبة الجذر,العدد المراد حساب جذره);
 Math.root(8,3); //النتيجة هي 2
 Math.root(15625,2); //النتيجة هي 125
 ```
-<p dir="rtl"><code dir="ltr">>root()</code> تعيد عدد يعبر عن قيمة الجذر من المرتبة n للعدد الممرر في المعامل الأول.</p>
+<p dir="rtl"><code dir="ltr">root()</code> تعيد عدد يعبر عن قيمة الجذر من المرتبة n للعدد الممرر في المعامل الأول.</p>
 
 <h3><code>sum()</code>:</h3>
 
@@ -362,7 +362,7 @@ Math.multiply(العدد الn,...,العدد الثالث,العدد الثان
 ```js
 Math.multiply(8,3,2); //النتيجة هي 48
 ```
-<p dir="rtl"><code dir="ltr">>multiply()</code> تعيد عدد يعبر عن جداء الأعداد الممررة ضمن معاملات الدالة.</p>
+<p dir="rtl"><code dir="ltr">multiply()</code> تعيد عدد يعبر عن جداء الأعداد الممررة ضمن معاملات الدالة.</p>
 
 
 <h3><code>getAverage()</code>:</h3>
