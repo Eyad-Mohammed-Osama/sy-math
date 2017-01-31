@@ -444,3 +444,4 @@ Math.factors(24)[0]; //النتيجة هي 1
 Math.factors(24)[10]; //النتيجة هي -3
 ```
 <p dir="rtl"><code dir="ltr">factorsNegative()</code>  تعيد مصفوفة تحتوي على عوامل العدد الممرر,لذلك قد يتوجب عليك تحديد موضع بعد القوسين المغلقين للحصول على عامل محدد,و إلا,فإنه سيتم إعادة كامل المصفوفة.</p>
+<a href="http://www.wtfpl.net/" style="text-align:center;"><img src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png"  width="80" height="15" alt="WTFPL" /></a>
