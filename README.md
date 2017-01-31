@@ -140,7 +140,7 @@ Math.getAverage(11,17,21,3); //Output 13
 <p><code>getAverage()</code> Returns A Number That Indicates The Average Of The Passed Numbers.</p>
 
 
- <h3><code>isPrimitive()</code>:</h3>
+<h3><code>isPrimitive()</code>:</h3>
 
 <p>This Method Can Be Used To Check Whether The Passed Number Is Primitive Or Not.</p>
 
@@ -306,3 +306,90 @@ Math.isDividable(10,2); //النتيجة هي true
 <p dir="rtl"><code dir="ltr">isDividable()</code> تعيد القيمة <span style="color:blue">true</span> إذا كان العدد الممرر في المعامل الأول يقبل القسمة على العدد الممرر في المعامل الثاني،و يعيد القيمة  
 <span style="color:blue">false</span> فيما عدا ذلك.
 </p>
+
+<h3><code>factorial()</code>:</h3>
+<p dir="rtl">تستخدم هذه الدالة في الحصول على قيمة عاملي عدد ما,مثل <span dir="ltr">6!</span></p>
+<h4 dir="rtl">الصيغة النحوية:</h4>
+
+```js
+Math.factorial(عدد);
+```
+<h4 dir="rtl">مثال:</h4>
+
+```js
+Math.factorial(7); //النتيجة هي 5040
+```
+<p dir="rtl"><code>factorial()</code> تعيد عدد يعبر عن قيمة عاملي العدد المدخل.</p>
+
+<h3><code>root()</code>:</h3>
+
+<p dir="rtl">تستخدم هذه الدالة في الحصول على الجذر من المرتبة n للعدد الممرر في المعامل الأول,بينما يتم تمرير مرتبة الجذر في المعامل الثاني.</p>
+
+<h4 dir="rtl">الصيغة النحوية:</h4>
+```js
+Math.root(مرتبة الجذر,العدد المراد حساب جذره);
+```
+<h4 dir="rtl">مثال:</h4>
+```js
+Math.root(8,3); //النتيجة هي 2
+Math.root(15625,2); //النتيجة هي 125
+```
+<p dir="rtl"><code>root()</code> تعيد عدد يعبر عن قيمة الجذر من المرتبة n للعدد الممرر في المعامل الأول.</p>
+
+<h3><code>sum()</code>:</h3>
+
+<p dir="rtl">يمكن إستخدام هذه الدالة لحساب مجموع عدد منتهي من الأعداد.</p>
+
+<h4 dir="rtl">الصيغة النحوية:</h4>
+```js
+Math.sum(العدد الn,...,العدد الثالث,العدد الثاني,العدد الأول);
+```
+<h4 dir="rtl">مثال:</h4>
+```js
+Math.sum(8,3,11,27,5); //النتيجة هي 54
+```
+<p dir="rtl"><code>sum()</code> تعيد عدد يعبر عن مجموع الأعداد الممررة ضمن معاملات الدالة.</p>
+
+<h3><code>multiply()</code>:</h3>
+
+<p dir="rtl">يمكن إستخدام هذه الدالة لحساب جداء عدد منتهي من الأعداد ببعضها.</p>
+
+<h4 dir="rtl">الصيغة النحوية:</h4>
+```js
+Math.multiply(العدد الn,...,العدد الثالث,العدد الثاني,العدد الأول);
+```
+<h4 dir="rtl">مثال:</h4>
+```js
+Math.multiply(8,3,2); //النتيجة هي 48
+```
+<p><code>multiply()</code> تعيد عدد يعبر عن جداء الأعداد الممررة ضمن معاملات الدالة.</p>
+
+<h3><code>isPrimitive()</code>:</h3>
+
+<p dir="rtl">
+يمكن إستخدام هذه الدالة في التحقق مما إذا كان العدد الممرر هو عدد أولي أم لا.
+</p>
+
+<h4 dir="rtl">الصيغة النحوية:</h4>
+```js
+Math.isPrimitive(number);
+```
+<h4>Example:</h4>
+```js
+Math.isPrimitive(11); //Output true
+Math.isPrimitive(24); //Output false
+```
+<p><code>isPrimitive()</code> Returns <span style="color:blue">true</span> If The Passed Number Is Primitive,And <span style="color:blue">false</span> Otherwise.</p>
+
+<h3><code>getAverage()</code>:</h3>
+<p dir="rtl">يمكن إستخدام هذه الدالة لإيجاد المتوسط الحسابي لعدد منتهي من الأعداد.</p>
+
+<h4 dir="rtl">الصيغة النحوية:</h4>
+```js
+Math.getAverage(العدد الn,...,العدد الثالث,العدد الثاني,العدد الأول);
+```
+<h4 dir="rtl">مثال:</h4>
+```js
+Math.getAverage(11,17,21,3); //النتيجة هي 13
+```
+<p dir="rtl"><code>getAverage()</code> تعيد عدد يعبر عن المتوسط الحسابي للأعداد الممررة ضمن معاملات الدالة.</p>
