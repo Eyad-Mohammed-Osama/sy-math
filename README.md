@@ -209,28 +209,6 @@ Math.factors(24)[10]; //Output -3
 ```
 <p><code>factorsNegative()</code> Returns An Array Contains The Factors Of The Passed Number,So You Might Have To Define An Index After The Parentheses,Otherwise The Whole Array Will Be Returned.</p>
 
-
- <h3><code>solveQuadraticEquation()</code>:</h3>
-
-<p>This Method Can Be Used To Get The Solutions Of A Quadratic Equations.<br>
-Currently,This Method Works Only With Equations That Have a,b,c Integers Such That c/a Should Have No Reminder And a Isn't Equal To Zero.</p>
-
-<h4>Syntax:</h4>
-<p>Let's Say That We Have The Following Quadratic Equation: ax<sup>2</sup>+bx+c=0,Then:</p>
-
-```js
-Math.solveQuadraticEquation(a,b,c)[factor_index];
-//Or
-Math.solveQuadraticEquation(a,b,c);
-```
-<h4>Example:</h4>
-
-```js
-Math.solveQuadraticEquation(1,6,8); //Output -2,-4
-Math.solveQuadraticEquation(1,6,8)[0]; //Output -2
-```
-<p><code>solveQuadraticEquation()</code> Returns An Array Contains The Solutions Of The Quadratic Equation,So You Might Have To Define An Index After The Parentheses,Otherwise The Whole Array Will Be Returned.</p>
-
 <hr>
 <h1 id="arabic" dir="rtl">sy-math.js  -  مكتبة جافاسكريبت تقوم بتوسيع الكائن Math و تضيف له بعض الدوال الفعالة.
 </h1>
