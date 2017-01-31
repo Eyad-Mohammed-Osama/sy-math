@@ -364,22 +364,6 @@ Math.multiply(8,3,2); //النتيجة هي 48
 ```
 <p><code>multiply()</code> تعيد عدد يعبر عن جداء الأعداد الممررة ضمن معاملات الدالة.</p>
 
-<h3><code>isPrimitive()</code>:</h3>
-
-<p dir="rtl">
-يمكن إستخدام هذه الدالة في التحقق مما إذا كان العدد الممرر هو عدد أولي أم لا.
-</p>
-
-<h4 dir="rtl">الصيغة النحوية:</h4>
-```js
-Math.isPrimitive(number);
-```
-<h4>Example:</h4>
-```js
-Math.isPrimitive(11); //Output true
-Math.isPrimitive(24); //Output false
-```
-<p><code>isPrimitive()</code> Returns <span style="color:blue">true</span> If The Passed Number Is Primitive,And <span style="color:blue">false</span> Otherwise.</p>
 
 <h3><code>getAverage()</code>:</h3>
 <p dir="rtl">يمكن إستخدام هذه الدالة لإيجاد المتوسط الحسابي لعدد منتهي من الأعداد.</p>
@@ -393,3 +377,70 @@ Math.getAverage(العدد الn,...,العدد الثالث,العدد الثا
 Math.getAverage(11,17,21,3); //النتيجة هي 13
 ```
 <p dir="rtl"><code>getAverage()</code> تعيد عدد يعبر عن المتوسط الحسابي للأعداد الممررة ضمن معاملات الدالة.</p>
+
+<h3><code>isPrimitive()</code>:</h3>
+
+<p dir="rtl">
+يمكن إستخدام هذه الدالة في التحقق مما إذا كان العدد الممرر هو عدد أولي أم لا.
+</p>
+
+<h4 dir="rtl">الصيغة النحوية:</h4>
+```js
+Math.isPrimitive(عدد);
+```
+<h4 dir="rtl">مثال:</h4>
+```js
+Math.isPrimitive(11); //النتيجة هي true
+Math.isPrimitive(24); //النتيجة هي false
+```
+<p dir="rtl"><code>isPrimitive()</code> تعيد القيمة <span style="color:blue">true</span> في حال إذا كان العدد الممرر أولياً,و  <span style="color:blue">false</span> فيما عدا ذلك.</p>
+
+<h3><code>getFloatDigits()</code>:</h3>
+
+<p dir="rtl">تستخدم هذه الدالة في الحصول على فواصل عدد ما.</p>
+
+<h4 dir="rtl">الصيغة النحوية:</h4>
+```js
+Math.getFloatDigits(عدد);
+```
+<h4 dir="rtl">مثال:</h4>
+```js
+Math.getFloatDigits(12.956); //النتيجة هي 0.956
+```
+<p dir="rtl"><code>getFloatDigits()</code> تعيد عدداً عائماً يعبر عن فواصل العدد الممرر ضمن معامل الدالة.</p>
+
+<h3><code>factors()</code>:</h3>
+
+<p dir="rtl">تستخدم هذه الدالة في تحليل العدد الصحيح الموجب الممرر ضمن معامل الدالة إلى عوامله.</p>
+
+<h4 dir="rtl">الصيغة النحوية:</h4>
+```js
+Math.factors(number)[موضع العامل];
+//أو
+Math.factors(عدد);
+```
+<h4 dir="rtl">مثال:</h4>
+```js
+Math.factors(24); //النتيجة هي 1,2,3,4,6,8,12,24
+Math.factors(24)[0]; //النتيجة هي 1
+Math.factors(24)[4]; //النتيجة هي 8
+```
+<p dir="rtl"><code>factors()</code> تعيد مصفوفة تحتوي على عوامل العدد الممرر,لذلك قد يتوجب عليك تحديد موضع بعد القوسين المغلقين للحصول على عامل محدد,و إلا,فإنه سيتم إعادة كامل المصفوفة.</p>
+
+<h3><code>factorsNegative()</code>:</h3>
+
+<p dir="rtl">تقوم بنفس عمل الدالة <code>factors()</code> تقريباً,و لكن بإمكان هذه الدالة أيضاً تحليل العدد الصحيح الموجب الممرر ضمن معامل الدالة و إعطاء القيم السالبة ضمن النتيجة.</p>
+
+<h4 dir="rtl">الصيغة النحوية:</h4>
+```js
+Math.factorsNegative(عدد)[موضع العامل];
+//أو
+Math.factorsNegative(عدد);
+```
+<h4 dir="rtl">مثال:</h4>
+```js
+Math.factors(24); //النتيجة هي 1,2,3,4,6,8,12,24,-1,-2,-3,-4,-6,-8,-12,-24
+Math.factors(24)[0]; //النتيجة هي 1
+Math.factors(24)[10]; //النتيجة هي -3
+```
+<p dir="rtl"><code>factorsNegative()</code>  تعيد مصفوفة تحتوي على عوامل العدد الممرر,لذلك قد يتوجب عليك تحديد موضع بعد القوسين المغلقين للحصول على عامل محدد,و إلا,فإنه سيتم إعادة كامل المصفوفة.</p>
