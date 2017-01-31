@@ -174,27 +174,3 @@ Factors.push((-1)*j);
 }
 
 };
-
-Math.solveQuadraticEquation=function() {
-"use strict";
-var possibleSolutions=[];
-var acceptedSolutions=[];
-var i;
-var j;
-var k;
-for (i=0;i<Math.factorsNegative(Math.abs(arguments[2]/arguments[0])).length;i++) {
-possibleSolutions[i]=Math.factorsNegative(Math.abs(arguments[2]/arguments[0]))[i];
-}
-
-for (j=0;j<Math.factorsNegative(Math.abs(arguments[2]/arguments[0])).length;j++) {
-possibleSolutions.push((-1)*Math.factorsNegative(arguments[2]/arguments[0])[j]);
-}
-
-for (k=0;k<possibleSolutions.length;k++) {
-if (arguments[0]*Math.pow(possibleSolutions[k],2)+arguments[1]*possibleSolutions[k]+arguments[2]==0) {
-acceptedSolutions.push(possibleSolutions[k]);
-}
-}
-
-return acceptedSolutions;
-};
