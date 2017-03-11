@@ -239,6 +239,134 @@ Math.randomPercentage(); //Might Output 2,Or 47,Or ...
 
 
 
+ <h3><code>randomUntil()</code>:</h3>
+<p>This Method Can Be Used To Get A Random Integer Number Between 0 And The Specific Limit (Including 0 And The Specific Limit).</p>
+<h4>Syntax:</h4>
+```js
+Math.randomUntil(limit);
+```
+<h4>Example:</h4>
+```js
+Math.randomUntil(20); //Output A Random Number Between 0 And 20...
+```
+<p><code>randomUntil()</code> Returns A Positive Integer That Indicates A Random Number Between 0 And The Specific Limit (Including 0 And The Specific Limit).</p> 
+
+<h3>Trigonometric Functions:</h3>
+<p>In This Version,Trigonometric Functions Were Added.</p>
+<p><b>sy-math.js</b> Is Designed To Deal With Trigonometric Functions In Such A Way That Enables The User To Control The Accuracy Of The Number In The Output.<b>Optionally</b>,That Can Be Done Through The Following Line:</p>
+```js
+Math._GLOBAL_.Trigonometric.resolution=number;
+```
+<p>Where <b>number</b> Is A Positive Integer That Indicates The Accuracy Of The Calculations.</p>
+<p>By Default,The Accuracy Take 8 As A Value If You Don't Specify It,So Don't Worry.</p>
+<p>Also,You Might Want To Use Degrees Instead Of Radians,That Is Also Possible Through This Line:</p>
+```js
+Math._GLOBAL_.Trigonometric.angleUnit="degree";
+```
+<p>The Previous Line Results In Something Similar To:</p>
+```js
+Math.Trigonometric.sin(90); //Output 1
+Math.Trigonometric.cos(60); //Output 0.5
+```
+<h2>A List Of Supported Trigonometric Methods:</h2>
+<p>To Use These Methods,You Should Access Them From The <b>Math.Trigonometric</b> Object.</p>
+ <h3><code>sin()</code>:</h3> 
+<p>This Method Can Be Used To Calculate The <b>Sine</b> Of A Specific Angle.</p>
+<h4>Syntax:</h4>
+```js
+Math.Trigonometric.sin(angle);
+```
+<h4>Example:</h4>
+```js
+Math.Trigonometric.sin(Math.PI/4); //Output 0.70710678118654746172 
+```
+
+ <h3><code>cos()</code>:</h3> 
+<p>This Method Can Be Used To Calculate The <b>Cosine</b> Of A Specific Angle.</p>
+<h4>Syntax:</h4>
+```js
+Math.Trigonometric.cos(angle);
+```
+<h4>Example:</h4>
+```js
+Math.Trigonometric.cos(Math.PI/6); //Output 0.86602540378443859659 
+```
+
+ 
+ <h3><code>tan()</code>:</h3> 
+<p>This Method Can Be Used To Calculate The <b>Tangent</b> Of A Specific Angle.</p>
+<h4>Syntax:</h4>
+```js
+Math.Trigonometric.tan(angle);
+```
+<h4>Example:</h4>
+```js
+Math.Trigonometric.tan(Math.PI/3); //Output 1.73205080756887541682 
+```
+
+
+ <h3><code>cot()</code>:</h3> 
+<p>This Method Can Be Used To Calculate The <b>Cotangent</b> Of A Specific Angle.</p>
+<h4>Syntax:</h4>
+```js
+Math.Trigonometric.cot(angle);
+```
+<h4>Example:</h4>
+```js
+Math.Trigonometric.cot(Math.PI/3); //Output 0.57735026918962639719 
+``` 
+
+
+ <h3><code>sec()</code>:</h3> 
+<p>This Method Can Be Used To Calculate The <b>Secant</b> Of A Specific Angle.</p>
+<h4>Syntax:</h4>
+```js
+Math.Trigonometric.sec(angle);
+```
+<h4>Example:</h4>
+```js
+Math.Trigonometric.sec(Math.PI/3); //Output 2
+``` 
+
+
+ <h3><code>cosec()</code> & <code>csc()</code>:</h3> 
+<p>These Two Methods Are Exactly The Same,And Both Can Be Used To Calculate The <b>Cosecant</b> Of A Specific Angle.</p>
+<h4>Syntax:</h4>
+```js
+Math.Trigonometric.cosec(angle);
+//Or
+Math.Trigonometric.csc(angle);
+```
+<h4>Example:</h4>
+```js
+Math.Trigonometric.cosec(Math.PI/4); //Output 1.41421356237309514547 
+Math.Trigonometric.csc(Math.PI/4); //Output 1.41421356237309514547 
+``` 
+
+ <h3><code>toRadian()</code>:</h3> 
+<p>This Method Can Be Used To Convert A Specific Angle To Radian.</p>
+<h4>Syntax:</h4>
+```js
+Math.Trigonometric.toRadian(angle);
+```
+<h4>Example:</h4>
+```js
+Math.Trigonometric.toRadian(75); //Output 1.3089969389957472 
+``` 
+
+ <h3><code>toDegree()</code>:</h3> 
+<p>This Method Can Be Used To Convert A Specific Angle To Degree.</p>
+<h4>Syntax:</h4>
+```js
+Math.Trigonometric.toDegree(angle);
+```
+<h4>Example:</h4>
+```js
+Math.Trigonometric.toDegree(Math.PI); //Output 180
+Math.Trigonometric.toDegree(2.0943951023931953); //Output 120 
+``` 
+
+
 <hr>
 <h1 id="arabic" dir="rtl">sy-math.js  -  مكتبة جافاسكريبت تقوم بتوسيع الكائن Math و تضيف له بعض الدوال الفعالة.
 </h1>
