@@ -259,7 +259,7 @@ Math._GLOBAL_.Trigonometric.resolution=number;
 ```
 <p>Where <b>number</b> Is A Positive Integer That Indicates The Accuracy Of The Calculations.</p>
 <p>By Default,The Accuracy Take 8 As A Value If You Don't Specify It,So Don't Worry.</p>
-<p>Also,You Might Want To Use Degrees Instead Of Radians,That Is Also Possible Through This Line:</p>
+<p>Also,You Might Want To Use Degrees Instead Of Radians (Because Radian Is The Default Unit),That Is Also Possible Through This Line:</p>
 ```js
 Math._GLOBAL_.Trigonometric.angleUnit="degree";
 ```
@@ -366,6 +366,76 @@ Math.Trigonometric.toDegree(Math.PI); //Output 180
 Math.Trigonometric.toDegree(2.0943951023931953); //Output 120 
 ``` 
 
+
+ <h3>Logarithmic Functions:</h3>
+<p>In This Version,Logarithmic Functions Were Added.</p>
+<p><b>sy-math.js</b> Is Designed To Deal With Logarithmic Functions In Such A Way That Enables The User To Control The Accuracy Of The Number In The Output.<b>Optionally</b>,That Can Be Done Through The Following Line:</p>
+```js
+Math._GLOBAL_.Logarithmic.resolution=number;
+```
+<p>Where <b>number</b> Is A Positive Integer That Indicates The Accuracy Of The Calculations.</p>
+<p>By Default,The Accuracy Take 32 As A Value If You Don't Specify It,So Don't Worry.</p>
+<h2>A List Of Supported Trigonometric Methods:</h2> 
+
+<h3><code>ln()</code>:</h3>
+<p>This Method Can Be Used To Calculate The Natural Logarithm (A Logarithm With Base <b>e</b>) For A Specific <b>Positive</b> Number.</p>
+<h4>Syntax:</h4>
+```js
+Math.ln(number);
+```
+<h4>Example:</h4>
+```js
+Math.ln(2); //Output 0.69314718055308610634 
+```
+
+ <h3><code>log()</code>:</h3>
+<p>This Method Can Be Used To Calculate The Logarithm With A Specific Base For A Specific <b>Positive</b> Number.</p>
+<h4>Syntax:</h4>
+```js
+Math.log(number,base);
+```
+<p>This Method Has A <b>Dynamic</b> Behavior,So If You Pass One Argument To This Method,The Method Will Act Like <b>Math.ln()</b>.</p>
+<h4>Example:</h4>
+```js
+Math.log(4); //Output 1.38628592311583864749 (Which Is The Same As Math.ln(4))
+Math.log(2,10); //Output 0.30203362483321649634 
+``` 
+
+
+ <h3>Exponential Functions:</h3>
+<p>In This Version,Exponential Functions Were Added.</p>
+<p><b>sy-math.js</b> Is Designed To Deal With Exponential Functions In Such A Way That Enables The User To Control The Accuracy Of The Number In The Output.<b>Optionally</b>,That Can Be Done Through The Following Line:</p>
+```js
+Math._GLOBAL_.Exponential.resolution=number;
+```
+<p>Where <b>number</b> Is A Positive Integer That Indicates The Accuracy Of The Calculations.</p>
+<p>By Default,The Accuracy Take 32 As A Value If You Don't Specify It,So Don't Worry.</p>
+<h2>A List Of Supported Exponential Methods:</h2> 
+
+<h3><code>e()</code>:</h3>
+<p>This Method Can Be Used The To Calculate The Power Of Euler Number <b>e</b>.</p>
+<h4>Syntax:</h4>
+```js
+Math.e(power);
+```
+<h4>Example:</h4>
+```js
+Math.e(1); //Output 2.71828182845904553488
+Math.e(2); //Output 7.38905609893064863058 
+```
+
+ <h3><code>exp()</code>:</h3>
+<p>This Method Can Be Used To Calculate The Power Of A Specific <b>Positive</b> Base.</p>
+<h4>Syntax:</h4>
+```js
+Math.exp(base,power);
+```
+<p>This Method Has A <b>Dynamic</b> Behavior,So If You Pass One Argument To This Method,The Method Will Act Like <b>Math.e()</b>.</p>
+<h4>Example:</h4>
+```js
+Math.exp(5); //Output 148.41315910257657151305 (Which Is The Same As Math.e(5))
+Math.exp(2,4); //Output 16
+``` 
 
 <hr>
 <h1 id="arabic" dir="rtl">sy-math.js  -  مكتبة جافاسكريبت تقوم بتوسيع الكائن Math و تضيف له بعض الدوال الفعالة.
