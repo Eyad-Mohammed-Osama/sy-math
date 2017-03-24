@@ -441,27 +441,21 @@ Math.e(power);
 ```
 <h4>Example:</h4>
 ```js
-
 Math.e(1); //Output 2.71828182845904553488
 Math.e(2); //Output 7.38905609893064863058 
-
 ```
 
  <h3><code>exp()</code>:</h3>
 <p>This Method Can Be Used To Calculate The Power Of A Specific <b>Positive</b> Base.</p>
 <h4>Syntax:</h4>
 ```js
-
 Math.exp(base,power);
-
 ```
 <p>This Method Has A <b>Dynamic</b> Behavior,So If You Pass One Argument To This Method,The Method Will Act Like <b>Math.e()</b>.</p>
 <h4>Example:</h4>
 ```js
-
 Math.exp(5); //Output 148.41315910257657151305 (Which Is The Same As Math.e(5))
 Math.exp(2,4); //Output 16
-
 ``` 
 
 <h2>Other Functions:</h2>
@@ -470,16 +464,12 @@ Math.exp(2,4); //Output 16
 <p>This Method Can Be Used The To Check Whether The Passed Number Is Positive Or Not.</p>
 <h4>Syntax:</h4>
 ```js
-
 Math.isPositive(number);
-
 ```
 <h4>Example:</h4>
 ```js
-
 Math.isPositive(10); //Output true
 Math.isPositive(-6); //Output false
-
 ```
 
 
@@ -487,31 +477,23 @@ Math.isPositive(-6); //Output false
 <p>This Method Can Be Used The To Check Whether The Passed Number Is Negative Or Not.</p>
 <h4>Syntax:</h4>
 ```js
-
 Math.isNegative(number);
-
 ```
 <h4>Example:</h4>
 ```js
-
 Math.isNegative(-8); //Output true
 Math.isNegative(17); //Output false
-
 ``` 
 
  <h3><code>PositiveOrNegative()</code>:</h3>
 <p>This Method Can Be Used The To Check Whether The Passed Number Is Positive Or Negative.</p>
 <h4>Syntax:</h4>
 ```js
-
 Math.PositiveOrNegative(number);
-
 ```
 <h4>Example:</h4>
 ```js
-
 Math.PositiveOrNegative(15); //Output "Positive"
 Math.PositiveOrNegative(-20); //Output "Negative"
-
 ``` 
 <a href="http://www.wtfpl.net/" style="text-align:center;"><img src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png"  width="80" height="15" alt="WTFPL" /></a>
