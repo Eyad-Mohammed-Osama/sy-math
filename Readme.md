@@ -26,6 +26,7 @@ Math.sum(1,9,7); //Output 17
 
 <p>These Methods Can Be Used To Check Whether The Passed Number In The Argument Is Even,Or Odd.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.isEven(number);
 Math.isOdd(number);
@@ -33,6 +34,7 @@ Math.EvenOrOdd(number);
 ```
 
 <h4>Example:</h4>
+
 ```js
 Math.isEven(8); //Output false
 Math.isOdd(12); //Output true
@@ -303,10 +305,13 @@ Math.Trigonometric.sin(Math.PI/4); //Output 0.70710678118654746172
  <h3><code>cos()</code>:</h3> 
 <p>This Method Can Be Used To Calculate The <b>Cosine</b> Of A Specific Angle.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.Trigonometric.cos(angle);
 ```
+
 <h4>Example:</h4>
+
 ```js
 Math.Trigonometric.cos(Math.PI/6); //Output 0.86602540378443859659 
 ```
@@ -315,10 +320,13 @@ Math.Trigonometric.cos(Math.PI/6); //Output 0.86602540378443859659
  <h3><code>tan()</code>:</h3> 
 <p>This Method Can Be Used To Calculate The <b>Tangent</b> Of A Specific Angle.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.Trigonometric.tan(angle);
 ```
+
 <h4>Example:</h4>
+
 ```js
 Math.Trigonometric.tan(Math.PI/3); //Output 1.73205080756887541682 
 ```
@@ -327,10 +335,13 @@ Math.Trigonometric.tan(Math.PI/3); //Output 1.73205080756887541682
  <h3><code>cot()</code>:</h3> 
 <p>This Method Can Be Used To Calculate The <b>Cotangent</b> Of A Specific Angle.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.Trigonometric.cot(angle);
 ```
+
 <h4>Example:</h4>
+
 ```js
 Math.Trigonometric.cot(Math.PI/3); //Output 0.57735026918962639719 
 ``` 
@@ -339,10 +350,13 @@ Math.Trigonometric.cot(Math.PI/3); //Output 0.57735026918962639719
  <h3><code>sec()</code>:</h3> 
 <p>This Method Can Be Used To Calculate The <b>Secant</b> Of A Specific Angle.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.Trigonometric.sec(angle);
 ```
+
 <h4>Example:</h4>
+
 ```js
 Math.Trigonometric.sec(Math.PI/3); //Output 2
 ``` 
@@ -351,12 +365,15 @@ Math.Trigonometric.sec(Math.PI/3); //Output 2
  <h3><code>cosec()</code> & <code>csc()</code>:</h3> 
 <p>These Two Methods Are Exactly The Same,And Both Can Be Used To Calculate The <b>Cosecant</b> Of A Specific Angle.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.Trigonometric.cosec(angle);
 //Or
 Math.Trigonometric.csc(angle);
 ```
+
 <h4>Example:</h4>
+
 ```js
 Math.Trigonometric.cosec(Math.PI/4); //Output 1.41421356237309514547 
 Math.Trigonometric.csc(Math.PI/4); //Output 1.41421356237309514547 
@@ -365,10 +382,13 @@ Math.Trigonometric.csc(Math.PI/4); //Output 1.41421356237309514547
  <h3><code>toRadian()</code>:</h3> 
 <p>This Method Can Be Used To Convert A Specific Angle To Radian.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.Trigonometric.toRadian(angle);
 ```
+
 <h4>Example:</h4>
+
 ```js
 Math.Trigonometric.toRadian(75); //Output 1.3089969389957472 
 ``` 
@@ -376,10 +396,13 @@ Math.Trigonometric.toRadian(75); //Output 1.3089969389957472
  <h3><code>toDegree()</code>:</h3> 
 <p>This Method Can Be Used To Convert A Specific Angle To Degree.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.Trigonometric.toDegree(angle);
 ```
+
 <h4>Example:</h4>
+
 ```js
 Math.Trigonometric.toDegree(Math.PI); //Output 180
 Math.Trigonometric.toDegree(2.0943951023931953); //Output 120 
@@ -389,9 +412,11 @@ Math.Trigonometric.toDegree(2.0943951023931953); //Output 120
  <h3>Logarithmic Functions:</h3>
 <p>In This Version,Logarithmic Functions Were Added.</p>
 <p><b>sy-math.js</b> Is Designed To Deal With Logarithmic Functions In Such A Way That Enables The User To Control The Accuracy Of The Number In The Output.<b>Optionally</b>,That Can Be Done Through The Following Line:</p>
+
 ```js
 Math._GLOBAL_.Logarithmic.resolution=number;
 ```
+
 <p>Where <b>number</b> Is A Positive Integer That Indicates The Accuracy Of The Calculations.</p>
 <p>By Default,The Accuracy Take 32 As A Value If You Don't Specify It,So Don't Worry.</p>
 <h2>A List Of Supported Trigonometric Methods:</h2> 
@@ -399,10 +424,13 @@ Math._GLOBAL_.Logarithmic.resolution=number;
 <h3><code>ln()</code>:</h3>
 <p>This Method Can Be Used To Calculate The Natural Logarithm (A Logarithm With Base <b>e</b>) For A Specific <b>Positive</b> Number.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.ln(number);
 ```
+
 <h4>Example:</h4>
+
 ```js
 Math.ln(2); //Output 0.69314718055308610634 
 ```
@@ -410,11 +438,14 @@ Math.ln(2); //Output 0.69314718055308610634
  <h3><code>log()</code>:</h3>
 <p>This Method Can Be Used To Calculate The Logarithm With A Specific Base For A Specific <b>Positive</b> Number.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.log(number,base);
 ```
+
 <p>This Method Has A <b>Dynamic</b> Behavior,So If You Pass One Argument To This Method,The Method Will Act Like <b>Math.ln()</b>.</p>
 <h4>Example:</h4>
+
 ```js
 Math.log(4); //Output 1.38628592311583864749 (Which Is The Same As Math.ln(4))
 Math.log(2,10); //Output 0.30203362483321649634 
@@ -424,9 +455,11 @@ Math.log(2,10); //Output 0.30203362483321649634
  <h3>Exponential Functions:</h3>
 <p>In This Version,Exponential Functions Were Added.</p>
 <p><b>sy-math.js</b> Is Designed To Deal With Exponential Functions In Such A Way That Enables The User To Control The Accuracy Of The Number In The Output.<b>Optionally</b>,That Can Be Done Through The Following Line:</p>
+
 ```js
 Math._GLOBAL_.Exponential.resolution=number;
 ```
+
 <p>Where <b>number</b> Is A Positive Integer That Indicates The Accuracy Of The Calculations.</p>
 <p>By Default,The Accuracy Take 32 As A Value If You Don't Specify It,So Don't Worry.</p>
 <h2>A List Of Supported Exponential Methods:</h2> 
@@ -434,10 +467,13 @@ Math._GLOBAL_.Exponential.resolution=number;
 <h3><code>e()</code>:</h3>
 <p>This Method Can Be Used The To Calculate The Power Of Euler Number <b>e</b>.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.e(power);
 ```
+
 <h4>Example:</h4>
+
 ```js
 Math.e(1); //Output 2.71828182845904553488
 Math.e(2); //Output 7.38905609893064863058 
@@ -446,11 +482,14 @@ Math.e(2); //Output 7.38905609893064863058
  <h3><code>exp()</code>:</h3>
 <p>This Method Can Be Used To Calculate The Power Of A Specific <b>Positive</b> Base.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.exp(base,power);
 ```
+
 <p>This Method Has A <b>Dynamic</b> Behavior,So If You Pass One Argument To This Method,The Method Will Act Like <b>Math.e()</b>.</p>
 <h4>Example:</h4>
+
 ```js
 Math.exp(5); //Output 148.41315910257657151305 (Which Is The Same As Math.e(5))
 Math.exp(2,4); //Output 16
@@ -461,10 +500,13 @@ Math.exp(2,4); //Output 16
  <h3><code>isPositive()</code>:</h3>
 <p>This Method Can Be Used The To Check Whether The Passed Number Is Positive Or Not.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.isPositive(number);
 ```
+
 <h4>Example:</h4>
+
 ```js
 Math.isPositive(10); //Output true
 Math.isPositive(-6); //Output false
@@ -474,10 +516,13 @@ Math.isPositive(-6); //Output false
  <h3><code>isNegative()</code>:</h3>
 <p>This Method Can Be Used The To Check Whether The Passed Number Is Negative Or Not.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.isNegative(number);
 ```
+
 <h4>Example:</h4>
+
 ```js
 Math.isNegative(-8); //Output true
 Math.isNegative(17); //Output false
@@ -486,12 +531,16 @@ Math.isNegative(17); //Output false
  <h3><code>PositiveOrNegative()</code>:</h3>
 <p>This Method Can Be Used The To Check Whether The Passed Number Is Positive Or Negative.</p>
 <h4>Syntax:</h4>
+
 ```js
 Math.PositiveOrNegative(number);
 ```
+
 <h4>Example:</h4>
+
 ```js
 Math.PositiveOrNegative(15); //Output "Positive"
 Math.PositiveOrNegative(-20); //Output "Negative"
 ``` 
+
 <a href="http://www.wtfpl.net/" style="text-align:center;"><img src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png"  width="80" height="15" alt="WTFPL" /></a>
