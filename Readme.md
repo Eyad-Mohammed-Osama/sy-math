@@ -20,5 +20,8 @@
 ```js
 Math.sum(1,9,7); //Output 17
 ```
+<h2>Supported Methods</h2>
+<p>In Order To Make This Document Clean And Tidy,The Supported Methods Section Has Been Moved To Specific Document.</p>
+<p>You Can See All The Supported Methods Here: <a href="https://github.com/Eyad-Syrialover/sy-math/blob/master/supported%20methods.md">https://github.com/Eyad-Syrialover/sy-math/blob/master/supported%20methods.md</a></p>
 
 <a href="http://www.wtfpl.net/" style="text-align:center;"><img src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png"  width="80" height="15" alt="WTFPL" /></a>
