@@ -1,3 +1,40 @@
+<h2>Index:</h2>
+<h3>Supported In Version 1.0:</h3>
+<p>
+<ul>
+<li><a href="#isevenisoddevenorodd">isEven(),isOdd(),EvenOrOdd()</a></li>
+<li><a href="#isdividable">isDividable()</a></li>
+<li><a href="#factorial">factorial()</a></li>
+<li><a href="#root">root()</a></li>
+<li><a href="#sum">sum()</a></li>
+<li><a href="#multiply">multiply()</a></li>
+<li><a href="#getaverage">getAverage()</a></li>
+<li><a href="#isprimitive">isPrimitive()</a></li>
+<li><a href="#getfloatdigits">getFloatDigits()</a></li>
+<li><a href="#factors">factors()</a></li>
+<li><a href="#factorsnegative">factorsNegative()</a></li>
+</ul>
+</p>
+<h3>Supported In Version 2.0:</h3>
+<p>
+<ul>
+<li><a href="#getremainder">getRemainder()</a></li>
+<li><a href="#randompercentage"></a></li>
+<li><a href="#randomuntil"></a></li>
+<li><a href="#trigonometric-functions">Trigonometric Functions (It's Recommended That You Read The Introduction Of This Section)</a></li>
+<ul>
+<li><a href="#sin">sin()</a></li>
+<li><a href="#cos">cos()</a></li>
+<li><a href="#tan">tan()</a></li>
+<li><a href="#cot">cot()</a></li>
+<li><a href="#sec">sec()</a></li>
+<li><a href="#cosec--csc">cosec(),csc()</a></li>
+<li><a href="#toradian">toRadian()</a></li>
+<li><a href="#todegree">toDegree()</a></li>
+</ul>
+
+</ul>
+</p>
 <h2>Supported Methods:</h2>
 
 <h3><code>isEven()</code>,<code>isOdd()</code>,<code>EvenOrOdd()</code>:</h3>
