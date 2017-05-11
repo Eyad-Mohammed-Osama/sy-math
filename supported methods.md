@@ -33,7 +33,25 @@
 <li><a href="#todegree">toDegree()</a></li>
 </ul>
 
-<li><a href="#"></a></li>
+<li><a href="#logarithmic-functions">Logarithmic Functions (It's Recommended That You Read The Introduction Of This Section)</a></li>
+<ul>
+<li><a href="#ln">ln()</a></li>
+<li><a href="#log">log()</a></li>
+</ul>
+
+<li><a href="#exponential-functions">Exponential Functions (It's Recommended That You Read The Introduction Of This Section)</a></li>
+<ul>
+<li><a href="#e">e()</a></li>
+<li><a href="#exp">exp()</a></li>
+</ul>
+
+<li><a href="#other-functions">Other Functions</a></li>
+<ul>
+<li><a href="#ispositive">isPositive()</a></li>
+<li><a href="#isnegative">isNegative()</a></li>
+<li><a href="#positiveornegative">PositiveOrNegative()</a></li>
+</ul>
+
 </ul>
 </p>
 <h2>Supported Methods:</h2>
