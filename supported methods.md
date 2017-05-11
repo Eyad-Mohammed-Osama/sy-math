@@ -19,8 +19,8 @@
 <p>
 <ul>
 <li><a href="#getremainder">getRemainder()</a></li>
-<li><a href="#randompercentage"></a></li>
-<li><a href="#randomuntil"></a></li>
+<li><a href="#randompercentage">randomPercentage()</a></li>
+<li><a href="#randomuntil">randomUntil()</a></li>
 <li><a href="#trigonometric-functions">Trigonometric Functions (It's Recommended That You Read The Introduction Of This Section)</a></li>
 <ul>
 <li><a href="#sin">sin()</a></li>
@@ -33,6 +33,7 @@
 <li><a href="#todegree">toDegree()</a></li>
 </ul>
 
+<li><a href="#"></a></li>
 </ul>
 </p>
 <h2>Supported Methods:</h2>
@@ -434,7 +435,7 @@ Math._GLOBAL_.Logarithmic.resolution=number;
 
 <p>Where <b>number</b> Is A Positive Integer That Indicates The Accuracy Of The Calculations.</p>
 <p>By Default,The Accuracy Take 32 As A Value If You Don't Specify It,So Don't Worry.</p>
-<h2>A List Of Supported Trigonometric Methods:</h2> 
+<h2>A List Of Supported Logarithmic Methods:</h2> 
 
 <h3><code>ln()</code>:</h3>
 <p>This Method Can Be Used To Calculate The Natural Logarithm (A Logarithm With Base <b>e</b>) For A Specific <b>Positive</b> Number.</p>
